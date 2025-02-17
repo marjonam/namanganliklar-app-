@@ -20,7 +20,7 @@ export default function Home() {
           <div className="main__wrap">
             {" "}
             <div className="main-item">
-              <div class="main__item__title">
+              <div className="main__item__title">
                 Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного
                 соглашения..
               </div>
@@ -37,7 +37,7 @@ export default function Home() {
               </div>
             </div>
             <div className="main-item">
-              <div class="main__item__title">
+              <div className="main__item__title">
                 Ученые доказали экспериментальным путем пользу покровных культур
               </div>
               <div className="main__item__text">
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="main__wrap">
             {" "}
             <div className="main-item">
-              <div class="main__item__title">
+              <div className="main__item__title">
                 Стали известны ёмкости аккумуляторов всех моделей iPhone 13
               </div>
               <div className="main__item__text">
@@ -87,7 +87,7 @@ export default function Home() {
               </div>
             </div>
             <div className="main-item">
-              <div class="main__item__title">
+              <div className="main__item__title">
                 Nature: ученые смогли доказать природное происхождение
                 коронавируса SARS-CoV-2
               </div>
@@ -121,7 +121,7 @@ export default function Home() {
           </div>
         </section>
         <section className="main__flex main-containe">
-          <p class="main__flex__text">
+          <p className="main__flex__text">
             Хотите быть в курсе свежих новостей? Включите уведомления!
           </p>
           <span className="main__flex__link">Включит </span>

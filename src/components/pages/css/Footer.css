@@ -4,9 +4,9 @@
 .footer__nav {
   display: flex;
   border-bottom: 1px solid #7689b4;
-  margin-left: 101px;
+  margin-left: 100px;
   gap: 203px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .footer__nav__link__img {
@@ -58,6 +58,7 @@
 }
 .footer__bottom__knew {
   display: flex;
+  margin-right: 60px;
   gap: 25px;
 }
 .footer__bottom__knew__list {

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import "../css/Header.css";
 
 export default function Header() {
   return (
@@ -29,17 +28,12 @@ export default function Header() {
                 />
               </form>
               <div className="language-toggler">
-                <span
-                  className="language-toggler__item language-toggler__item-active"
-                  href="#"
-                >
+                <span className="language-toggler__item language-toggler__item-active">
                   УЗ
                 </span>
                 <span className="language-toggler__item">РУ</span>
               </div>
-              <buutton className="header__navfooter__nav__btn btn">
-                Войти
-              </buutton>
+              <button className="header__navfooter__nav__btn btn">Войти</button>
             </div>
           </div>
           <nav className="header__nav__container container">

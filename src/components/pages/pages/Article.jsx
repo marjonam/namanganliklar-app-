@@ -2,10 +2,10 @@ import "../css/Article.css";
 export default function Article() {
   return (
     <div>
-      <main class="main">
-        <section class="main__top__container container">
-          <div class="main__top__container__left">
-            <div class="left__title__logo">
+      <main className="main">
+        <section className="main__top__container container">
+          <div className="main__top__container__left">
+            <div className="left__title__logo">
               <img
                 src="../../../images/solenka-info.png"
                 alt=""
@@ -14,10 +14,10 @@ export default function Article() {
               />
               FBM.ru 22:23
             </div>
-            <div class="left__title__text">
+            <div className="left__title__text">
               Илон Маск принял участие во Всемирной сетевой конференции в Китае
             </div>
-            <div class="left__image">
+            <div className="left__image">
               <img
                 src="../../../images/Rectangle 91 (1).png"
                 alt=""
@@ -25,8 +25,8 @@ export default function Article() {
                 height="300"
               />
             </div>
-            <p class="left__text"></p>
-            <p class="tetx__item">
+            <p className="left__text"></p>
+            <p className="tetx__item">
               Илон Маск (Elon Musk, Руководитель фирмы Tesla и других проектов)
               уже второй раз за полторы недели обратился к китайским правящим
               кругам и гражданам. В видеоролике он уверил их в своей готовности
@@ -34,11 +34,11 @@ export default function Article() {
               этой страны. Особое внимание будет уделяться небезопасности
               обрабатываемых данных.
             </p>
-            <p class="tetx__item">
+            <p className="tetx__item">
               Они будут храниться только в самом Китае и поэтому будут доступны
               правительству Поднебесной в любой момент.
             </p>
-            <p class="tetx__item">
+            <p className="tetx__item">
               Новые заявления Илон Маск сделал во время видеообращения к
               аудитории мероприятия World Internet Conference, которое прошло в
               конце недели в Поднебесной. Компанию ему составили руководители
@@ -46,64 +46,65 @@ export default function Article() {
               (Кристиано Амон), а интересы бизнеса Китайской Народной Республики
               представляли руководители Alibaba и Xiaomi.
             </p>
-            <p class="tetx__item">
+            <p className="tetx__item">
               Открывал мероприятие Лю Хэ (Liu He, Вице-премьер Госсовета КНР),
               который привёл слова Си Цзиньпина (Xi Jinping) о стремлении
               Поднебесной работать со всеми державами над созданием прозрачной
               цифровой экономики.
             </p>
-            <p class="tetx__item">
+            <p className="tetx__item">
               В ближайшее время Tesla собирается не только сделать шире объёмы
               производства автомобилей на электрической тяге в шанхайском
               филиале, но и разработать силами местной студии недорогую модель
               электрического автомобиля (стоимостью менее 25 000 долларов).
             </p>
-            <p class="tetx__item">
+            <p className="tetx__item">
               Уже в настоящий момент собранные в Китайской Народной Республике
               электрокары Tesla Model Y и Model 3 поставляются на экспорт в
               Европу.
             </p>
 
-            <div class="divider1"></div>
+            <div className="divider1"></div>
           </div>
-          <div class="main__top__container__right">
-            <div class="legenda__about">
-              <div class="legenda__list">
-                <p class="about__title">Главное</p>
-                <div class="legenda__about__item">
-                  <p class="about__text">
+          <div className="main__top__container__right">
+            <div className="legenda__about">
+              <div className="legenda__list">
+                <p className="about__title">Главное</p>
+                <div className="legenda__about__item">
+                  <p className="about__text">
                     В Фергане создадут узбекско- <br />
                     пакистанский университет
                   </p>
-                  <p class="about__logo">Sputnik Узбекистан 14:09</p>
-                  <div class="divider"></div>
+                  <p className="about__logo">Sputnik Узбекистан 14:09</p>
+                  <div className="divider"></div>
                 </div>
-                <div class="legenda__about__item">
-                  <p class="about__text">
+                <div className="legenda__about__item">
+                  <p className="about__text">
                     В Фергане создадут узбекско- <br />
                     пакистанский университет
                   </p>
-                  <p class="about__logo">Sputnik Узбекистан 14:09</p>
-                  <div class="divider"></div>
+                  <p className="about__logo">Sputnik Узбекистан 14:09</p>
+                  <div className="divider"></div>
                 </div>
-                <div class="legenda__about__item">
-                  <p class="about__text">
+                <div className="legenda__about__item">
+                  <p className="about__text">
                     В Фергане создадут узбекско- <br />
                     пакистанский университет
                   </p>
-                  <p class="about__logo">Sputnik Узбекистан 14:09</p>
-                  <div class="divider"></div>
+                  <p className="about__logo">Sputnik Узбекистан 14:09</p>
+                  <div className="divider"></div>
                 </div>
-                <div class="legenda__about__item">
-                  <p class="about__text">
+                <div className="legenda__about__item">
+                  <p className="about__text">
                     В Фергане создадут узбекско- <br />
                     пакистанский университет
                   </p>
-                  <p class="about__logo">Sputnik Узбекистан 14:09</p>
+                  Name
+                  <p className="about__logo">Sputnik Узбекистан 14:09</p>
                 </div>
               </div>
               <img
-                class="legenda__about__image"
+                className="legenda__about__image"
                 src="../../../images/banner-aside.png"
                 alt=""
                 width="393"
@@ -112,43 +113,43 @@ export default function Article() {
             </div>
           </div>
         </section>
-        <section class="park__container container">
-          <p class="park__container__title">По вашим интересам</p>
-          <div class="park__container__items">
-            <div class="park__container__item">
-              <p class="item_title1">
+        <section className="park__container container">
+          <p className="park__container__title">По вашим интересам</p>
+          <div className="park__container__items">
+            <div className="park__container__item">
+              <p className="item_title1">
                 Стали известны ёмкости аккумуляторов всех моделей iPhone 13
               </p>
-              <p class="item_text1">
+              <p className="item_text1">
                 Во время презентации iPhone 13 Apple придала большое значения...
               </p>
-              <div class="item_image">
+              <div className="item_image">
                 <img src="../../../images/diger.png" alt="" />
                 <p>Digger.ru 14:25</p>
               </div>
             </div>
-            <div class="park__container__item">
-              <p class="item_title1">
+            <div className="park__container__item">
+              <p className="item_title1">
                 Nature: ученые смогли доказать природное происхождение
                 коронавируса SARS-CoV-2
               </p>
-              <p class="item_text1">
+              <p className="item_text1">
                 Во время презентации iPhone 13 Apple придала большое значение...
               </p>
-              <div class="item_image">
+              <div className="item_image">
                 <img src="../../../images/lenta-ru.png" alt="" />
                 <p>Lenta.ru 10:54</p>
               </div>
             </div>
-            <div class="park__container__item">
-              <p class="item_title1">
+            <div className="park__container__item">
+              <p className="item_title1">
                 Китайская марка JAC повысила цены на лифтбек и пикап в России
               </p>
-              <p class="item_text1">
+              <p className="item_text1">
                 Две модели китайского бренда JAC из пяти, представленных на
                 российском...
               </p>
-              <div class="item_image">
+              <div className="item_image">
                 <img src="../../../images/tarantas-nyus.png" alt="" />
                 <p>Digger.ru 14:25</p>
               </div>
